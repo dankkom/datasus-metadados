@@ -2,4 +2,4 @@
 title: "Dados: CNES-SR"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/cnes-sr.json" >}}
+{{< remote-files-table "data" "cnes_sr" >}}

@@ -2,4 +2,4 @@
 title: "Dados: SINAN-DIFT"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/sinan-dift.json" >}}
+{{< remote-files-table "data" "sinan_dift" >}}

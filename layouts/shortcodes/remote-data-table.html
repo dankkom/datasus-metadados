@@ -1,5 +1,5 @@
-{{ $url := index .Params 0 }}
-{{ $data := resources.GetRemote $url }}
+{{ $data_group := index $.Site.Data (.Get 0) }}
+{{ $data := index $data_group (.Get 1) }}
 
 {{ $grandtotal_size := 0 }}
 
@@ -16,7 +16,7 @@
     </tr>
   </thead>
   <tbody>
-    {{ range $data | transform.Unmarshal }}
+    {{ range $data }}
     <tr>
       <td>ftp://ftp.datasus.gov.br{{ .full_path }}</td>
       <td class="right">{{ math.Div .size 1000 | lang.FormatNumber 2 }} KB</td>

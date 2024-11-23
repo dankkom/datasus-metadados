@@ -2,4 +2,4 @@
 title: "Dados: SIA-AB"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/sia-ab.json" >}}
+{{< remote-files-table "data" "sia_ab" >}}

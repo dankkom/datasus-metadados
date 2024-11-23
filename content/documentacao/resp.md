@@ -2,4 +2,4 @@
 title: "Documentação: RESP"
 ---
 
-{{< remote-files-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/documentation/resp.json" >}}
+{{< remote-files-table "documentation" "resp" >}}

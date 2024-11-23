@@ -2,4 +2,4 @@
 title: "Dados: SINAN-AIDC-PRELIMINAR"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/sinan-aidc-preliminar.json" >}}
+{{< remote-files-table "data" "sinan_aidc_preliminar" >}}

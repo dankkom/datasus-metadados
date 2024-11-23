@@ -2,4 +2,4 @@
 title: "Dados: SISCOLO-HC"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/siscolo-hc.json" >}}
+{{< remote-files-table "data" "siscolo_hc" >}}

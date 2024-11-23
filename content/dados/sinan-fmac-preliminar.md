@@ -2,4 +2,4 @@
 title: "Dados: SINAN-FMAC-PRELIMINAR"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/sinan-fmac-preliminar.json" >}}
+{{< remote-files-table "data" "sinan_fmac_preliminar" >}}

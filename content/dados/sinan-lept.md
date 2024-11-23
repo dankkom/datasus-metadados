@@ -2,4 +2,4 @@
 title: "Dados: SINAN-LEPT"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/sinan-lept.json" >}}
+{{< remote-files-table "data" "sinan_lept" >}}

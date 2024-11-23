@@ -2,4 +2,4 @@
 title: "Dados: PCE"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/pce.json" >}}
+{{< remote-files-table "data" "pce" >}}

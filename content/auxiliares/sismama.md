@@ -2,4 +2,4 @@
 title: "Auxiliares: SISMAMA"
 ---
 
-{{< remote-files-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/auxiliary/sismama.json" >}}
+{{< remote-files-table "auxiliary" "sismama" >}}

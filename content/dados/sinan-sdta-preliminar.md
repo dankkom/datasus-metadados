@@ -2,4 +2,4 @@
 title: "Dados: SINAN-SDTA-PRELIMINAR"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/sinan-sdta-preliminar.json" >}}
+{{< remote-files-table "data" "sinan_sdta_preliminar" >}}

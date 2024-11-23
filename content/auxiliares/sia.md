@@ -2,4 +2,4 @@
 title: "Auxiliares: SIA"
 ---
 
-{{< remote-files-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/auxiliary/sia.json" >}}
+{{< remote-files-table "auxiliary" "sia" >}}

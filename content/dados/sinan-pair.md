@@ -2,4 +2,4 @@
 title: "Dados: SINAN-PAIR"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/sinan-pair.json" >}}
+{{< remote-files-table "data" "sinan_pair" >}}

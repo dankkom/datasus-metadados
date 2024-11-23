@@ -2,4 +2,4 @@
 title: "Dados: SINASC-DN"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/sinasc-dn.json" >}}
+{{< remote-files-table "data" "sinasc_dn" >}}

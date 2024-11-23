@@ -2,4 +2,4 @@
 title: "Dados: SIM-DO-CID10-PRELIMINAR"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/sim-do-cid10-preliminar.json" >}}
+{{< remote-files-table "data" "sim_do_cid10_preliminar" >}}

@@ -2,4 +2,4 @@
 title: "Auxiliares: BASE-POPULACIONAL-IBGE"
 ---
 
-{{< remote-files-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/auxiliary/base-populacional-ibge.json" >}}
+{{< remote-files-table "auxiliary" "base_populacional_ibge" >}}

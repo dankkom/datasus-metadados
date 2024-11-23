@@ -2,4 +2,4 @@
 title: "Dados: SINAN-HANS-PRELIMINAR"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/sinan-hans-preliminar.json" >}}
+{{< remote-files-table "data" "sinan_hans_preliminar" >}}

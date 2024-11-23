@@ -2,4 +2,4 @@
 title: "Dados: BASE-POPULACIONAL-IBGE-POPT"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/base-populacional-ibge-popt.json" >}}
+{{< remote-files-table "data" "base_populacional_ibge_popt" >}}

@@ -2,4 +2,4 @@
 title: "Dados: SINAN-TOXG-PRELIMINAR"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/sinan-toxg-preliminar.json" >}}
+{{< remote-files-table "data" "sinan_toxg_preliminar" >}}

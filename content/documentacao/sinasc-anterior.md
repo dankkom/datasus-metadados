@@ -2,4 +2,4 @@
 title: "Documentação: SINASC-ANTERIOR"
 ---
 
-{{< remote-files-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/documentation/sinasc-anterior.json" >}}
+{{< remote-files-table "documentation" "sinasc_anterior" >}}

@@ -2,4 +2,4 @@
 title: "Dados: CIH-CR"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/cih-cr.json" >}}
+{{< remote-files-table "data" "cih_cr" >}}

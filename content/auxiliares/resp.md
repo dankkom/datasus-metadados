@@ -2,4 +2,4 @@
 title: "Auxiliares: RESP"
 ---
 
-{{< remote-files-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/auxiliary/resp.json" >}}
+{{< remote-files-table "auxiliary" "resp" >}}

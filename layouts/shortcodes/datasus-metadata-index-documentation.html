@@ -1,4 +1,4 @@
-{{ $data := resources.GetRemote "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/index.json" | transform.Unmarshal }}
+{{ $data := .Site.Data.index }}
 {{ $baseURL := .Site.BaseURL }}
 
 {{ $grandtotal_n_files := 0 }}

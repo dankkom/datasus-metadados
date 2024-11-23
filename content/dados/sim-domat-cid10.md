@@ -2,4 +2,4 @@
 title: "Dados: SIM-DOMAT-CID10"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/sim-domat-cid10.json" >}}
+{{< remote-files-table "data" "sim_domat_cid10" >}}

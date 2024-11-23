@@ -2,4 +2,4 @@
 title: "Dados: SINAN-SIFG-PRELIMINAR"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/sinan-sifg-preliminar.json" >}}
+{{< remote-files-table "data" "sinan_sifg_preliminar" >}}

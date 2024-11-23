@@ -2,4 +2,4 @@
 title: "Dados: SINAN-PEST-PRELIMINAR"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/sinan-pest-preliminar.json" >}}
+{{< remote-files-table "data" "sinan_pest_preliminar" >}}

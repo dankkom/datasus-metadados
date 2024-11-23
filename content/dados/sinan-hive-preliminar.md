@@ -2,4 +2,4 @@
 title: "Dados: SINAN-HIVE-PRELIMINAR"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/sinan-hive-preliminar.json" >}}
+{{< remote-files-table "data" "sinan_hive_preliminar" >}}

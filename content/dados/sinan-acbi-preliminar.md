@@ -2,4 +2,4 @@
 title: "Dados: SINAN-ACBI-PRELIMINAR"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/sinan-acbi-preliminar.json" >}}
+{{< remote-files-table "data" "sinan_acbi_preliminar" >}}

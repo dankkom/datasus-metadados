@@ -2,4 +2,4 @@
 title: "Dados: SINAN-ESQU-PRELIMINAR"
 ---
 
-{{< remote-data-table "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata/data/sinan-esqu-preliminar.json" >}}
+{{< remote-files-table "data" "sinan_esqu_preliminar" >}}

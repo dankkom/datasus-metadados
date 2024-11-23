@@ -1,5 +1,4 @@
 import json
-import urllib.request
 from pathlib import Path
 
 
@@ -10,34 +9,31 @@ title: "{title}"
 {shortcode}
 """
 
-BASE_URL = "https://cdn.statically.io/gh/dankkom/datasus-metadata/main/metadata"
-
-
-index_json_url = BASE_URL + "/index.json"
-
-with urllib.request.urlopen(index_json_url) as response:
-    data = json.load(response)
+with open("data/index.json") as f:
+    data = json.load(f)
 
 for dataset, info in data["data"].items():
     print(dataset)
     path = Path("content", "dados", dataset + ".md")
-    url = BASE_URL + f"/data/{dataset}.json"
     title = f"Dados: {dataset.upper()}"
-    shortcode = "{{< remote-data-table \"" + url + "\" >}}"
+    dataset = dataset.replace("-", "_")
+    shortcode = '{{< remote-files-table "data" "' + dataset.replace("-", "_") + '" >}}'
     path.write_text(template.format(title=title, shortcode=shortcode), encoding="utf-8")
 
 for dataset, info in data["auxiliary"].items():
     print(dataset)
     path = Path("content", "auxiliares", dataset + ".md")
-    url = BASE_URL + f"/auxiliary/{dataset}.json"
     title = f"Auxiliares: {dataset.upper()}"
-    shortcode = "{{< remote-files-table \"" + url + "\" >}}"
+    shortcode = (
+        '{{< remote-files-table "auxiliary" "' + dataset.replace("-", "_") + '" >}}'
+    )
     path.write_text(template.format(title=title, shortcode=shortcode), encoding="utf-8")
 
 for dataset, info in data["documentation"].items():
     print(dataset)
     path = Path("content", "documentacao", dataset + ".md")
-    url = BASE_URL + f"/documentation/{dataset}.json"
     title = f"Documentação: {dataset.upper()}"
-    shortcode = "{{< remote-files-table \"" + url + "\" >}}"
+    shortcode = (
+        '{{< remote-files-table "documentation" "' + dataset.replace("-", "_") + '" >}}'
+    )
     path.write_text(template.format(title=title, shortcode=shortcode), encoding="utf-8")
