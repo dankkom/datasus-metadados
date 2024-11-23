@@ -1,0 +1,23 @@
+baseURL: "https://dkko.me/datasus-metadata/"
+languageCode: "pt-br"
+title: "DATASUS Metadados"
+
+menus:
+  main:
+    - name: 'Home'
+      pageRef: '/'
+      weight: 10
+    - name: 'Arquivos de Dados'
+      pageRef: '/dados/'
+      weight: 20
+    - name: 'Arquivos de Documentação'
+      pageRef: '/documentacao/'
+      weight: 20
+    - name: 'Arquivos Auxiliares'
+      pageRef: '/auxiliares/'
+      weight: 20
+
+module:
+  hugoVersion:
+    extended: false
+    min: "0.116.0"
