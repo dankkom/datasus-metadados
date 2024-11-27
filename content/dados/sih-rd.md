@@ -2,4 +2,4 @@
 title: "Dados: SIH-RD"
 ---
 
-{{< remote-files-table "data" "sih_rd" >}}
+{{< remote-data-table "data" "sih_rd" >}}

@@ -2,4 +2,4 @@
 title: "Dados: PCE"
 ---
 
-{{< remote-files-table "data" "pce" >}}
+{{< remote-data-table "data" "pce" >}}

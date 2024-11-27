@@ -2,4 +2,4 @@
 title: "Dados: CNES-GM"
 ---
 
-{{< remote-files-table "data" "cnes_gm" >}}
+{{< remote-data-table "data" "cnes_gm" >}}

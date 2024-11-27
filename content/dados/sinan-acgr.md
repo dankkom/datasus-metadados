@@ -2,4 +2,4 @@
 title: "Dados: SINAN-ACGR"
 ---
 
-{{< remote-files-table "data" "sinan_acgr" >}}
+{{< remote-data-table "data" "sinan_acgr" >}}

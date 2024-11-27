@@ -2,4 +2,4 @@
 title: "Dados: SIA-AD"
 ---
 
-{{< remote-files-table "data" "sia_ad" >}}
+{{< remote-data-table "data" "sia_ad" >}}

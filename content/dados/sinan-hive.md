@@ -2,4 +2,4 @@
 title: "Dados: SINAN-HIVE"
 ---
 
-{{< remote-files-table "data" "sinan_hive" >}}
+{{< remote-data-table "data" "sinan_hive" >}}

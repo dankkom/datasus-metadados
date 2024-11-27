@@ -2,4 +2,4 @@
 title: "Dados: SISCOLO-CC"
 ---
 
-{{< remote-files-table "data" "siscolo_cc" >}}
+{{< remote-data-table "data" "siscolo_cc" >}}

@@ -2,4 +2,4 @@
 title: "Dados: SINAN-ACBI-PRELIMINAR"
 ---
 
-{{< remote-files-table "data" "sinan_acbi_preliminar" >}}
+{{< remote-data-table "data" "sinan_acbi_preliminar" >}}

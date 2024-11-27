@@ -2,4 +2,4 @@
 title: "Dados: SISPRENATAL-PN"
 ---
 
-{{< remote-files-table "data" "sisprenatal_pn" >}}
+{{< remote-data-table "data" "sisprenatal_pn" >}}

@@ -2,4 +2,4 @@
 title: "Dados: SINAN-MENI-PRELIMINAR"
 ---
 
-{{< remote-files-table "data" "sinan_meni_preliminar" >}}
+{{< remote-data-table "data" "sinan_meni_preliminar" >}}

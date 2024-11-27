@@ -2,4 +2,4 @@
 title: "Dados: SINAN-HANT-PRELIMINAR"
 ---
 
-{{< remote-files-table "data" "sinan_hant_preliminar" >}}
+{{< remote-data-table "data" "sinan_hant_preliminar" >}}

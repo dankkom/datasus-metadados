@@ -2,4 +2,4 @@
 title: "Dados: SINAN-FMAC"
 ---
 
-{{< remote-files-table "data" "sinan_fmac" >}}
+{{< remote-data-table "data" "sinan_fmac" >}}

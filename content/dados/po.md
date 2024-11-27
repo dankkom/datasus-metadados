@@ -2,4 +2,4 @@
 title: "Dados: PO"
 ---
 
-{{< remote-files-table "data" "po" >}}
+{{< remote-data-table "data" "po" >}}

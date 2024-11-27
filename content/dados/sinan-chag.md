@@ -2,4 +2,4 @@
 title: "Dados: SINAN-CHAG"
 ---
 
-{{< remote-files-table "data" "sinan_chag" >}}
+{{< remote-data-table "data" "sinan_chag" >}}

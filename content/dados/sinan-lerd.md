@@ -2,4 +2,4 @@
 title: "Dados: SINAN-LERD"
 ---
 
-{{< remote-files-table "data" "sinan_lerd" >}}
+{{< remote-data-table "data" "sinan_lerd" >}}

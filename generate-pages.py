@@ -17,7 +17,7 @@ for dataset, info in data["data"].items():
     path = Path("content", "dados", dataset + ".md")
     title = f"Dados: {dataset.upper()}"
     dataset = dataset.replace("-", "_")
-    shortcode = '{{< remote-files-table "data" "' + dataset.replace("-", "_") + '" >}}'
+    shortcode = '{{< remote-data-table "data" "' + dataset.replace("-", "_") + '" >}}'
     path.write_text(template.format(title=title, shortcode=shortcode), encoding="utf-8")
 
 for dataset, info in data["auxiliary"].items():

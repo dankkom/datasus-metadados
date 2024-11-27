@@ -2,4 +2,4 @@
 title: "Dados: SINAN-DIFT"
 ---
 
-{{< remote-files-table "data" "sinan_dift" >}}
+{{< remote-data-table "data" "sinan_dift" >}}

@@ -2,4 +2,4 @@
 title: "Dados: SINAN-TOXC"
 ---
 
-{{< remote-files-table "data" "sinan_toxc" >}}
+{{< remote-data-table "data" "sinan_toxc" >}}

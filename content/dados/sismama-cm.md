@@ -2,4 +2,4 @@
 title: "Dados: SISMAMA-CM"
 ---
 
-{{< remote-files-table "data" "sismama_cm" >}}
+{{< remote-data-table "data" "sismama_cm" >}}

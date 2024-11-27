@@ -2,4 +2,4 @@
 title: "Dados: RESP"
 ---
 
-{{< remote-files-table "data" "resp" >}}
+{{< remote-data-table "data" "resp" >}}

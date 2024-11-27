@@ -2,4 +2,4 @@
 title: "Dados: SINAN-TETN"
 ---
 
-{{< remote-files-table "data" "sinan_tetn" >}}
+{{< remote-data-table "data" "sinan_tetn" >}}

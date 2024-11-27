@@ -2,4 +2,4 @@
 title: "Dados: SINAN-TUBE"
 ---
 
-{{< remote-files-table "data" "sinan_tube" >}}
+{{< remote-data-table "data" "sinan_tube" >}}
