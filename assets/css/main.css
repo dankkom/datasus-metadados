@@ -43,7 +43,11 @@ table {
   td.center {
     text-align: center;
   }
-  tfoot td {
-    font-weight: bold;
+  tfoot {
+    background-color: grey;
+    color: white;
+    td {
+      font-weight: bold;
+    }
   }
 }
